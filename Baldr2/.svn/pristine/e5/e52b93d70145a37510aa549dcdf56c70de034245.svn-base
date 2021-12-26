@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<save>
+<onglet>
+<titre sommaire="True">Analyse</titre>
+<rapport></rapport>
+<analys>
+<fichs>
+</fichs>
+<options>
+<opt name="EXTRACT_PDF">false</opt>
+<opt name="CONCATENATION">false</opt>
+<opt name="COMMENTAIRES">false</opt>
+<opt name="WHITESPACES">false</opt>
+<opt name="PREVIEW">false</opt>
+<opt name="extract_image_pdf">false</opt>
+</options>
+<sources>
+</sources>
+<res len="0">
+</res>
+</analys>
+</onglet>
+<onglet>
+<titre sommaire="False">Analyse</titre>
+<rapport></rapport>
+<analys>
+<fichs>
+</fichs>
+<options>
+<opt name="EXTRACT_PDF">false</opt>
+<opt name="CONCATENATION">false</opt>
+<opt name="COMMENTAIRES">false</opt>
+<opt name="WHITESPACES">false</opt>
+<opt name="PREVIEW">false</opt>
+<opt name="extract_image_pdf">false</opt>
+</options>
+<sources>
+</sources>
+<res len="0">
+</res>
+</analys>
+</onglet>
+<onglet>
+<titre sommaire="False">Analyse</titre>
+<rapport></rapport>
+<analys>
+<fichs>
+</fichs>
+<options>
+<opt name="EXTRACT_PDF">false</opt>
+<opt name="CONCATENATION">false</opt>
+<opt name="COMMENTAIRES">false</opt>
+<opt name="WHITESPACES">false</opt>
+<opt name="PREVIEW">false</opt>
+<opt name="extract_image_pdf">false</opt>
+</options>
+<sources>
+</sources>
+<res len="0">
+</res>
+</analys>
+</onglet>
+</save>

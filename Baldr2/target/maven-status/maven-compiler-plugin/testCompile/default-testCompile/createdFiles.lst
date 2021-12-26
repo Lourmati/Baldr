@@ -1,0 +1,16 @@
+ca\qc\bdeb\baldr\noyau\TriTest.class
+ca\qc\bdeb\baldr\formattage\ExtrairePDFTest.class
+ca\qc\bdeb\baldr\noyau\NoyauTest.class
+ca\qc\bdeb\baldr\noyau\TaskTest$TestObservateur.class
+ca\qc\bdeb\baldr\utils\CorrespondanceTest.class
+ca\qc\bdeb\baldr\noyau\MatriceTriangulaireTest.class
+ca\qc\bdeb\baldr\formattage\CommentParserTest.class
+ca\qc\bdeb\baldr\noyau\GestionnaireFiltresTest.class
+ca\qc\bdeb\baldr\noyau\SommaireTest.class
+ca\qc\bdeb\baldr\noyau\OutputStreamSizerTest.class
+ca\qc\bdeb\baldr\noyau\ProjetTest.class
+ca\qc\bdeb\baldr\noyau\DefaultTaskTest.class
+ca\qc\bdeb\baldr\noyau\FiltreTest.class
+ca\qc\bdeb\baldr\noyau\TaskTest.class
+ca\qc\bdeb\baldr\noyau\SaveAndRestoreTest.class
+ca\qc\bdeb\baldr\utils\ArrayUtilTest.class

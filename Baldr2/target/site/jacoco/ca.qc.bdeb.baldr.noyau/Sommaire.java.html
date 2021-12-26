@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Sommaire.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Baldr</a> &gt; <a href="index.source.html" class="el_package">ca.qc.bdeb.baldr.noyau</a> &gt; <span class="el_source">Sommaire.java</span></div><h1>Sommaire.java</h1><pre class="source lang-java linenums">package ca.qc.bdeb.baldr.noyau;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Une tache sommaire, c'est une tache qui contient les résultats des autres
+ * taches
+ *
+ * @author mpauze
+ */
+public class Sommaire extends Task {
+
+    /**
+     * Rien de spéciale, s'initalise comme sa {@link Task#Task() classe mère}
+     */
+    public Sommaire() {
+<span class="fc" id="L19">        super();</span>
+<span class="fc" id="L20">    }</span>
+
+    /**
+     *
+     * @param tachesComposantes
+     */
+<span class="fc" id="L26">    public Sommaire(List&lt;Task&gt; tachesComposantes) {</span>
+<span class="fc" id="L27">        this.tachesComposantes = new ArrayList(tachesComposantes);</span>
+<span class="fc" id="L28">    }</span>
+
+    /**
+     * Retourne true, un sommaire est un sommaire
+     *
+     * @return {@code true}
+     */
+    @Override
+    public boolean estSommaire() {
+<span class="fc" id="L37">        return true;</span>
+    }
+
+    /**
+     * Détermine si la Sommaire contient la tache
+     *
+     * @param tache
+     * @return true si le sommaire contient la tache
+     */
+    @Override
+    public boolean contientTache(Task tache) {
+<span class="fc" id="L48">        return tachesComposantes.contains(tache);</span>
+    }
+
+    /**
+     * Méthode qui retourne une liste de tous les fichiers qui doivent
+     * être dans le sommaire.
+     *
+     * @return
+     */
+    public List&lt;File&gt; creationFichierSommaire() {
+<span class="fc" id="L58">        List&lt;File&gt; allFile = new ArrayList();</span>
+
+<span class="fc bfc" id="L60" title="All 2 branches covered.">        for (Task task : tachesComposantes) {            </span>
+<span class="fc" id="L61">            List&lt;File&gt; taskFile = task.getTousFichiers();</span>
+<span class="pc bpc" id="L62" title="1 of 2 branches missed.">            if (taskFile != null) {</span>
+<span class="fc bfc" id="L63" title="All 2 branches covered.">                for (File fichier : taskFile) {</span>
+<span class="fc bfc" id="L64" title="All 2 branches covered.">                    if (verifierDoublonsSommaire(allFile, fichier)) {</span>
+<span class="fc" id="L65">                        allFile.add(fichier);</span>
+                    }
+<span class="fc" id="L67">                }</span>
+            }
+<span class="fc" id="L69">        }</span>
+        
+<span class="fc" id="L71">        return allFile;</span>
+    }
+    
+    /*
+    * Méthode qui vérifie dans pour chaque élément de la liste de Fichiers
+    * à la recherche d'un fichier doublon qui devrait être enlevé pour ne pas
+    * l'afficher deux fois.
+    */
+    private boolean verifierDoublonsSommaire(List&lt;File&gt; allFile, File aAjouter) {
+<span class="fc" id="L80">        boolean ajoutable = true;</span>
+
+<span class="fc bfc" id="L82" title="All 2 branches covered.">        for (File file : allFile) {</span>
+<span class="fc bfc" id="L83" title="All 2 branches covered.">            if (aAjouter.equals(file)) {</span>
+<span class="fc" id="L84">                ajoutable = false;</span>
+<span class="fc" id="L85">                break;</span>
+            }
+<span class="fc" id="L87">        }</span>
+<span class="fc" id="L88">        return ajoutable;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

@@ -1,0 +1,48 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ca.qc.bdeb.baldr.noyau;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+/**
+ *
+ * @author Shajaan
+ */
+public class CalculAnalyseUneFois {
+
+    File f1;
+    File f2;
+    double resultat;
+    Task tache;
+    Task.FilePair files;
+    HashMap<File, File> fichierDejaFait = new HashMap<>();
+    List<MatriceTriangulaire> resultatDejacalculer = new ArrayList<>();
+
+    public Task getTache() {
+        return tache;
+    }
+
+    public Task.FilePair getFiles() {
+        return files;
+    }
+
+    public HashMap remplirListeFichier() {
+        
+        f1 = getFiles().getFile1();
+        f2 = getFiles().getFile2();
+        fichierDejaFait.put(f1, f2);
+        return fichierDejaFait;
+    }
+
+    public List remplirListeResultat() {
+        
+        resultatDejacalculer.add(tache.getResults());
+        return resultatDejacalculer;
+    }
+}

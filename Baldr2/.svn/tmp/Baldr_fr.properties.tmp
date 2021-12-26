@@ -1,0 +1,308 @@
+#main
+Yes=Oui
+
+No=Non
+
+Cancel=Annuler
+
+Apply=Appliquer
+
+Ok=Ok
+
+#Filechooser
+Look_in=Chercher dans \:
+
+Save_in=Enregistrer sous \:
+
+File_name=Nom du fichier \:
+
+File_type=Type des fichiers \:
+
+Choose=Choisir
+
+Export=Exporter
+
+Export_Tooltip=Exporter vers le projet s\u00e9lectionn\u00e9
+
+#window
+Options=Options
+
+Help=Aide
+
+File=Fichier
+
+Project_Menu=Projet
+
+New_Analysis=Nouvelle analyse
+
+Close_Tab=Fermer l'analyse
+
+Show_Hidden_Files=
+
+Open_File=Ouvrir...
+
+New_Project=Nouveau projet
+
+Open=Ouvrir un projet...
+
+Save=Enregistrer
+
+SaveAs=Enregistrer sous...
+
+Archive=Archiver le projet
+
+Exit=Quitter
+
+Rename_Project=Renommer...
+
+Rename_Project_Label=Nouveau nom du projet :
+
+Make_Summary=Produire un sommaire du projet
+
+Analysis=Analyse
+
+Preference=Pr\u00e9f\u00e9rences...
+
+Help_Topics=Rubriques d'aide
+
+About=\u00c0 propos de Baldr
+
+Rename_Tab=Renommer l'onglet...
+
+Rename_Tab_Label=Nouveau nom de l'onglet :
+
+Close_Tab=Fermer l'onglet
+
+Close_All=Fermer tout sauf celui-ci
+
+Duplicate_Analysis=Dupliquer cette analyse
+
+Save_Mods=Souhaitez-vous enregistrer les modifications \napport\u00e9es avant de fermer cette analyse ?
+
+Files_Archived=fichiers nouvellement archiv\u00e9s.
+
+#Tab
+Documents=Documents
+Of=de 
+Tree=Arborescence des fichiers \:
+
+Project_Name_Label=Projet :
+
+Default_Project_Name=Sans nom
+
+Export_To=Exporter vers...
+
+Analysis_Progression=Progression de l'analyse \:
+
+Classes=Classes \: 
+
+Results_=R\u00e9sultats \:
+
+Result = R\u00e9sultat
+
+File1 = Fichier n\u00b01
+File2 = Fichier n\u00b02
+
+Add_Files=Ajouter des fichiers
+
+Delete_Selected_File=Supprimer le fichier s\u00e9lectionn\u00e9
+
+Delete=Supprimer
+
+Start_Analysis=D\u00e9marrer l'analyse
+
+Stop_Analysis=Arr\u00eater l'analyse
+
+Copy=Copier
+
+Paste=Coller
+
+Cut=Couper
+
+Select_All=S\u00e9lectionner tout
+
+Notes=Notes \:
+
+Histogram = Histogramme
+
+Local=locaux
+
+Global=globaux
+
+Number_Decimals=Nombre de d\u00e9cimales dans les r\u00e9sultats \:
+
+Sort_By=Trier par:
+
+Analysis_Canceled=L'analyse a \u00e9t\u00e9 annul\u00e9e.
+
+Analysis_In_Progress=Analyse en cours...
+
+Analysis_Done=Analyse termin\u00e9e.
+
+Analysis_Ready=Pr\u00eat...
+
+Hide_Labels=Masquer les \u00e9tiquettes
+
+Show_Labels=Afficher les \u00e9tiquettes
+
+Status=\u00c9tat \: 
+
+# Table model
+Files=Fichiers
+#About
+About_Title=<html><u>Baldr, dieu scandinave de l'innocence</u></html>
+
+About_Text=<b>Baldr</b> version 0.42 (Beta)<br> <br> Logiciel de lutte contre la fraude<br> <br><br> <u>Programmeurs principaux</u><br> Beno\u00eet Larroque <br> C\u00e9dric Tessier <br> Hubert Wassner <br> <br> <u>Programmeurs en charge de l'IHM</u> <br> Corentin Ch\u00e9ron <br> Laurent Sigoigne <br><br> <u>Remerciements</u> <br>\u00c0 Michel Futtersack pour nous avoir permis de r\u00e9aliser ce projet. <br><br> \u00c0 Hubert pour l'id\u00e9e, les conseils et les encouragements. <br><br> A famfamfam.com pour les ic\u00f4nes.<br> <br> <u>Cours de maintenance Bois-de-Boulogne</u> <br>Yaya Kader Bakayoko<br>Maxime Bernard<br>Vincent Bissonnette<br>Arnaud Brouillet-Gagnon<br>David Constantineau<br>Dominic Craight<br>William C\u00f4t\u00e9-Cyr<br>Alexandre Dor\u00e9<br>Justin Gagnon-Lavoie<br>Timoth\u00e9e H\u00e9bert<br>Pascal Laprade<br>Louis Luu Lim<br>Carl Montplaisir<br>Adrian Necula<br>Matthieu Pauz\u00e9<br>Alexandre Sasseville<br>Nicolas Signori<br>Estuardo Ureta<br>Nicholas V\u00e9zina<br>Andres Augusto Zamora<br>
+
+
+Finished_Analysing=Analyse termin\u00e9e
+
+#prefwin
+Mode=Mode \:
+
+Simple_Mode=Mode de base
+
+Expert_Mode=Mode expert
+
+Fav_Editor_Caption=\u00c9diteur de texte pr\u00e9f\u00e9r\u00e9 ($1 sera remplac\u00e9 par le nom du fichier)
+
+Fav_Comparator_Caption=Comparateur de textes pr\u00e9f\u00e9r\u00e9 ($1 et $2 seront remplac\u00e9s par les noms des fichiers)
+
+Browse=Parcourir...
+
+Language=Langue (vous devez red\u00e9marrer pour voir les changements) \:
+
+Preview_files=Aper\u00e7u des fichiers de projet .baldr dans le s\u00e9lectionneur de fichiers
+
+Panel_Title=D\u00e9finir les couleurs des r\u00e9sultats d'analyse
+
+Progres_Mod=Mode progressive
+
+Fix_Color=Fixer les couleurs :
+
+Red_Color = Rouge
+
+Green_Color = Vert
+
+Yellow_Color = Jaune
+#errors
+NO_MORE_TABS=Impossible de cr\u00e9er plus d'onglets.
+
+NO_FILES=Aucun fichier \u00e0 analyser.
+
+TOO_MUCH_ANALYSIS=Impossible d'effectuer plus d'analyses.
+
+NO_ENOUGH_FILES=Vous avez besoin d'au minimum 3 fichiers.
+
+NO_HIDDEN_FILES = Il n'y a pas de fichiers cach\u00e9s.
+
+NO_EDITOR=L'\u00e9diteur pr\u00e9f\u00e9r\u00e9 n'est pas d\u00e9fini.
+
+NO_DIFF=Le comparateur pr\u00e9f\u00e9r\u00e9 n'est pas d\u00e9fini.
+
+NOTHING_SAVE=Rien \u00e0 enregistrer.
+
+CANNOT_EXECUTE_PROGRAM=Une erreur est survenue lors de l'ouverture d'un programme externe.
+
+ERROR=Erreur
+
+#filefilter
+FT_BALDR=Projets Baldr
+
+FT_BALDR_ALL=Tous les projets Baldr
+
+#previewtab
+Report=Rapport \:
+
+Directories_c=r\u00e9pertoire(s),
+
+Files_c=fichier(s) \:
+
+#filepreview
+Size=Taille \:
+
+Last_Mod=Derni\u00e8re modification \:
+
+Analysis_c=Analyse \:
+Number_Decimals=Nombre de d\u00e9cimales dans les r\u00e9sultats :
+
+View_Label=Vue \:
+
+Table_View=Tableau
+List_View=Liste
+Summary=Sommaire
+Analysis_concatenation=Faire l'analyse par concat\u00e9nation des fichiers des sources
+Close_Project=Fermer projet
+Concatenation_directory=Chemin d'enregistrement des fichiers de concat\u00e9nation
+Overwrite=\ existe d\u00e9j\u00e0.\nVoulez-vous le remplacer?
+Ready=Pr\u00eat...
+INVALID_FILE=Le format de ce fichier est invalide et/ou n'existe pas
+Add_File_Cancel=L'ajout des fichiers a \u00e9t\u00e9 annul\u00e9.
+Sommaire_Intelligent=Ouvrir un onglet sommaire lorsque deux analyses ou plus sont ouvertes
+Description_Analyses=Choisissez une de ces options pour l'analyse :
+Analyse_Sans_Commentaires=Faire l'analyse en enlevant les commentaires des fichiers
+Analyse_Sans_Whitespaces=Faire l'analyse en enlevant les lignes vides des fichiers
+Vue_Par_Defaut=Vue par d\u00e9faut
+Add_Distinguished_Folder=Ajouter aux sources
+Remove_Distinguished_Folder=Supprimer des sources
+Add_Distinguished_Subfolder=Ajouter les sous dossiers aux sources
+Graphics=Panneau graphique:
+Remove_Distinguished_Subfolders=Supprimer les sous-dossiers des sources
+
+
+result_increasing=          R\u00e9sultat croissant
+alphabetical_increasing=    Alphab\u00e9tique croissant
+alphabetical_decreasing=    Alphab\u00e9tique d\u00e9croissant
+extension_increasing=       Extension croissant
+extension_decreasing=       Extension d\u00e9croissant
+result_decreasing=          R\u00e9sultat d\u00e9croissant
+average_increasing=         Moyenne croissant
+average_decreasing=         Moyenne d\u00e9croissant
+
+exclude_files=              Exclure des fichiers
+exclude_no_files=           Pas de fichiers
+exclude_please_add_files=   Veuillez ajouter des fichiers avant!
+exclude_set_filter=         Veuillez entrer le filtre des fichiers \u00e0 exclure
+
+sources=                    Sources
+
+copy_or_move_files=         Copier ou d\u00e9placer des fichiers
+copy_selected_files=        Copier les fichiers s\u00e9lectionn\u00e9s
+move_selected_files=        D\u00e9placer les fichiers s\u00e9lectionn\u00e9s
+copy_multiple_files=        Copier plusieurs fichiers avec un filtre
+move_multiple_files=        D\u00e9placer plusieurs fichiers avec un filtre
+select_analysis=            S\u00e9lectionner l'analyse
+new_analysis...=            Nouvelle analyse...
+analysis_choice=            S\u00e9lectionner l'analyse de destination
+new_analysis=               Nouvelle analyse
+enter_new_analysis_name=    Entrez le nom de la nouvelle analyse
+analysis_name_taken=        Le nom de l'analyse est d\u00e9ja utilis\u00e9
+analysis_name_empty=        Le nom de l'analyse ne peut pas \u00eatre vide
+select_files=               S\u00e9lection des fichiers
+enter_filter=               Entrez le filtre pour s\u00e9lectionner des fichiers
+
+filter_results=             Filtrer les r\u00e9sultats
+enter_filter=               Entrez le seuil maximal (0.0 \u00e0 1.0).\nTout fichier ne poss\u00e9dant aucun r\u00e9sultat sous ce seuil sera exclu du tableau.
+bad_filter_title=           Filtre invalide
+bad_filter_message=         Le nombre entr\u00e9 est invalide
+hide_results=               Cacher fichier
+show_hidden_files=          Montrer les fichiers cach\u00e9s
+progres_color=              Couleur progressive
+fixed_color =               Couleur fixe
+baldr_Type=                 Logiciel de pr\u00e9vention du plagiat
+lead_Dev=                   D\u00e9veloppeurs principaux
+invalid_value=              Valeur invalide vous devez entrer un chiffre de 0 \u00e0 0.9
+error=                      Erreur
+number_exp=                 Vous devez entrer que des nombres
+Add_filter=                 Ajouter un filtre
+Delete_filter=              Supprimer un filtre
+All_files=                  Tous les fichiers
+Remove_filters=             Supprimer des filtres
+extract_pdf=                Extraire le contenue des fichiers pdf avant l'analyse
+extract_pdf_image=          Extraire le contenu des images d'un pdf
+Insert_filter=              Inserez un nouveau filtre
+Insert_exclusion_filter=    Inserer un filtre d'exclusion
+Exclude_filter=             Exclure un filtre
+Remove_excluded_filter=     Supprimer filtre d'exclusion
+Filter_files=               Filtrer les fichiers...
+No_files=                   Auccun fichier

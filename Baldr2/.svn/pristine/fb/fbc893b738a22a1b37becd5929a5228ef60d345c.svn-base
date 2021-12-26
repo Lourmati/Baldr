@@ -1,0 +1,297 @@
+#main
+Yes=Si
+
+No=No
+
+Cancel=Cancelar
+
+Apply=Applicar
+
+Ok=Ok
+
+#Filechooser
+Look_in=Pase a ver \:
+
+Save_in=Salvar en \:
+
+File_name=Nombre del archivo \:
+
+File_type=Tipo de archivos \:
+
+Choose=Escoger
+
+Export=Exportar
+
+Export_Tooltip=Exportar al proyecto seleccionado
+Options=Opciones
+
+Help=Ayuda
+
+File=Archivo
+
+Project_Menu=Proyecto
+
+New_Analysis=Nuevo an\u00e1lisis
+
+Close_Tab=Close this analysis
+
+Show_Hidden_Files=
+
+Open_File=Abierto
+
+New_Project=Nuevo proyecto
+
+Open=Abierto proyecto
+
+Save=Salvar proyecto
+
+SaveAs=Salvar Como...
+
+Archive=Archivo el proyecto
+
+Exit=Salida
+
+Rename_Project=Renombrar...
+
+Rename_Project_Label=Nuevo nombre de proyecto:
+
+Make_Summary=Hacer el resumen del proyecto
+
+Analysis=Analysis
+
+Preference=Preferencias
+
+Help_Topics=Temas de ayuda
+
+About=Acerca de Baldr
+
+Rename_Tab=Renombrar pesta\u00f1a...
+
+Rename_Tab_Label=Nuevo nombre de pesta\u00f1a :
+
+Close_Tab=
+
+Close_All=
+
+Duplicate_Analysis=
+
+Save_Mods=
+
+Files_Archived= 
+
+#Tab
+Documents=
+Of=
+Tree=
+
+Project_Name_Label=
+
+Default_Project_Name=
+
+Export_To=
+
+Analysis_Progression=
+
+Classes=
+
+Results_=
+
+Result = 
+
+File1 = 
+File2 = 
+
+Add_Files=
+
+Delete_Selected_File=
+
+Delete=
+
+Start_Analysis=
+
+Stop_Analysis=
+
+Copy=
+
+Paste=
+
+Cut=
+
+Select_All=
+
+Notes=
+
+Local=
+
+Graphics=
+
+Global=
+
+Number_Decimals=
+
+Sort_By=
+
+Values_Histogram=
+
+Analysis_Canceled=
+
+2DView=
+
+3DView=
+
+Hide_Labels=
+
+Show_Labels=
+
+Ready=
+
+Status=
+
+# Table model
+Files=
+About_Title= 
+
+About_Text=
+
+#conv 3D
+3D_Calc=
+
+
+Finished_Analysing=
+Mode=
+
+Simple_Mode=
+
+Expert_Mode=
+
+Fav_Editor_Caption=
+
+Fav_Comparator_Caption=
+
+Browse=
+
+Language=
+
+Preview_files=
+
+Panel_Title=
+
+Progres_Mod=
+
+Fix_Color=
+
+Red_Color = 
+
+Green_Color = 
+
+Yellow_Color = 
+
+#errors
+NO_MORE_TABS=
+
+NO_FILES=
+
+TOO_MUCH_ANALYSIS=
+
+NO_ENOUGH_FILES=
+
+NO_EDITOR=
+
+NO_DIFF=
+
+NOTHING_SAVE=
+
+CANNOT_EXECUTE_PROGRAM=
+
+ERROR=
+
+#filefilter
+FT_BALDR=
+
+FT_BALDR_ALL=
+Report=
+
+Directories_c=
+
+Files_c=
+Size=
+
+Last_Mod=
+
+Analysis_c=
+
+Analysis_In_Progress=
+
+Analysis_Done=
+
+Analysis_Ready=
+
+View_Label=
+
+Table_View=
+List_View=
+Summary=
+Analysis_concatenation=
+Concatenation_directory=
+Close_Project=
+Overwrite=
+INVALID_FILE=
+Add_File_Cancel=
+Sommaire_Intelligent=
+Description_Analyses=
+Analyse_Sans_Commentaires=
+Analyse_Sans_Whitespaces=
+Vue_Par_Defaut=
+Add_Distinguished_Folder=
+Remove_Distinguished_Folder=
+Add_Distinguished_Subfolder=
+Remove_Distinguished_Subfolders=
+
+alphabetical_increasing=    
+alphabetical_decreasing=    
+extension_increasing=       
+extension_decreasing=       
+result_increasing=          
+result_decreasing=          
+average_increasing=         
+average_decreasing=         
+
+exclude_files=              
+exclude_no_files=            
+exclude_please_add_files=   
+exclude_set_filter=         
+
+sources=                    
+
+copy_or_move_files=         
+copy_selected_files=        
+move_selected_files=        
+copy_multiple_files=        
+move_multiple_files=        
+select_analysis=            
+new_analysis...=            
+analysis_choice=            
+new_analysis=               
+enter_new_analysis_name=    
+analysis_name_taken=        
+analysis_name_empty=        
+select_files=               
+enter_filter=               Enter the filter used to select files
+
+filter_results=             
+enter_filter=               \n
+bad_filter_title=           
+bad_filter_message=         
+hide_results=
+show_hidden_files=          Mostrar archivos ocultos               
+progres_color=              
+fixed_color =               
+baldr_Type=                 
+lead_Dev=                   
+invalid_value=              
+error=                      
+number_exp=                 
+Add_filter=                 
+Delete_filter=              
+All_files=                  
+Remove_filters=             

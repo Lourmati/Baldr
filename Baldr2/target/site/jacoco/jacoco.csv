@@ -1,0 +1,30 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Baldr,ca.qc.bdeb.baldr.noyau,Noyau,0,22,0,0,0,6,0,3,0,3
+Baldr,ca.qc.bdeb.baldr.noyau,OuvertureFichier,0,38,0,2,0,9,0,3,0,2
+Baldr,ca.qc.bdeb.baldr.noyau,Projet,1,338,3,21,1,101,3,32,0,23
+Baldr,ca.qc.bdeb.baldr.noyau,OutputStreamSizer,0,16,0,0,0,6,0,3,0,3
+Baldr,ca.qc.bdeb.baldr.noyau,Sommaire,0,84,1,11,0,24,1,11,0,6
+Baldr,ca.qc.bdeb.baldr.noyau,Task.FilePair,7,56,3,3,2,13,5,3,2,3
+Baldr,ca.qc.bdeb.baldr.noyau,RienASauvegarderException,0,3,0,0,0,1,0,1,0,1
+Baldr,ca.qc.bdeb.baldr.noyau,MatriceTriangulaire,3,583,4,76,2,113,5,50,1,14
+Baldr,ca.qc.bdeb.baldr.noyau,SaveAndRestore,157,156,4,6,39,45,4,11,1,9
+Baldr,ca.qc.bdeb.baldr.noyau,GestionnairePreferences,8,163,0,24,5,36,0,18,0,6
+Baldr,ca.qc.bdeb.baldr.noyau,Tri.new Object() {...},8,53,0,0,0,1,0,1,0,1
+Baldr,ca.qc.bdeb.baldr.noyau,Task,539,2573,107,253,123,558,89,174,6,67
+Baldr,ca.qc.bdeb.baldr.noyau,Tri.Type,5,107,0,0,0,13,1,4,1,4
+Baldr,ca.qc.bdeb.baldr.noyau,Tri.TypeI18N,0,19,0,0,0,6,0,3,0,3
+Baldr,ca.qc.bdeb.baldr.noyau,CalculAnalyseUneFois,34,0,0,0,9,0,5,0,5,0
+Baldr,ca.qc.bdeb.baldr.noyau,Task.new Runnable() {...},0,48,0,4,0,10,0,4,0,2
+Baldr,ca.qc.bdeb.baldr.noyau,GestionnaireFiltres,72,126,4,4,17,35,4,13,2,11
+Baldr,ca.qc.bdeb.baldr.noyau,Tri,48,685,5,106,10,115,5,65,0,11
+Baldr,ca.qc.bdeb.baldr.formattage,TypeCommentaireMultiLigne.TypeCommentaireJava,0,33,0,0,0,2,0,1,0,1
+Baldr,ca.qc.bdeb.baldr.formattage,CommentParser.EstCommentaire,9,39,0,0,0,4,2,2,2,2
+Baldr,ca.qc.bdeb.baldr.formattage,TypeCommentaireUneLigne.TypeCommentaireAssembleur,0,4,0,0,0,2,0,1,0,1
+Baldr,ca.qc.bdeb.baldr.formattage,TypeCommentaireUneLigne.TypeCommentairePython,0,4,0,0,0,2,0,1,0,1
+Baldr,ca.qc.bdeb.baldr.formattage,TypeCommentaireMultiLigne,0,123,1,21,0,29,1,15,0,5
+Baldr,ca.qc.bdeb.baldr.formattage,CommentParser,0,394,4,62,0,89,4,39,0,10
+Baldr,ca.qc.bdeb.baldr.formattage,TypeCommentaire,84,70,40,14,0,14,28,13,0,5
+Baldr,ca.qc.bdeb.baldr.formattage,TypeCommentaireMultiLigne.TypeCommentaireSql,0,33,0,0,0,2,0,1,0,1
+Baldr,ca.qc.bdeb.baldr.formattage,TypeCommentaireUneLigne,0,28,0,4,0,9,0,4,0,2
+Baldr,ca.qc.bdeb.baldr.formattage,ExtrairePDF,129,36,14,0,23,11,8,2,1,2
+Baldr,ca.qc.bdeb.baldr.formattage,ExtrairePDF.new InputStream() {...},5,6,0,0,1,1,1,1,1,1

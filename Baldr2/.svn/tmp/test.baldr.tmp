@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<save>
+<onglet>
+<titre sommaire="True">Analyse</titre>
+<rapport></rapport>
+<analys>
+<fichs>
+</fichs>
+<options>
+<opt name="EXTRACT_PDF">false</opt>
+<opt name="CONCATENATION">true</opt>
+<opt name="COMMENTAIRES">true</opt>
+<opt name="WHITESPACES">true</opt>
+<opt name="PREVIEW">false</opt>
+</options>
+<sources>
+</sources>
+<res len="0">
+</res>
+</analys>
+</onglet>
+<onglet>
+<titre sommaire="False">Analyse</titre>
+<rapport></rapport>
+<analys>
+<fichs>
+</fichs>
+<options>
+<opt name="EXTRACT_PDF">false</opt>
+<opt name="CONCATENATION">true</opt>
+<opt name="COMMENTAIRES">true</opt>
+<opt name="WHITESPACES">true</opt>
+<opt name="PREVIEW">false</opt>
+</options>
+<sources>
+</sources>
+<res len="0">
+</res>
+</analys>
+</onglet>
+<onglet>
+<titre sommaire="False">Analyse</titre>
+<rapport></rapport>
+<analys>
+<fichs>
+</fichs>
+<options>
+<opt name="EXTRACT_PDF">false</opt>
+<opt name="CONCATENATION">true</opt>
+<opt name="COMMENTAIRES">true</opt>
+<opt name="WHITESPACES">true</opt>
+<opt name="PREVIEW">false</opt>
+</options>
+<sources>
+</sources>
+<res len="0">
+</res>
+</analys>
+</onglet>
+</save>

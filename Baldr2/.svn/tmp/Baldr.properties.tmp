@@ -1,0 +1,309 @@
+#main
+Yes=Yes
+
+No=No
+
+Cancel=Cancel
+
+Apply=Apply
+
+Ok=Ok
+
+#Filechooser
+Look_in=Look in\:
+
+Save_in=Save in\:
+
+File_name=File name\:
+
+File_type=Files type\:
+
+Choose=Choose
+
+Export=Export
+
+Export_Tooltip=Export to selected project
+Options=Options
+
+Help=Help
+
+File=File
+
+Project_Menu=Project
+
+New_Analysis=New analysis
+
+Close_Tab=Close this analysis
+
+Show_Hidden_Files=
+
+Open_File=Open
+
+New_Project=New project
+
+Open=Open project
+
+Save=Save project
+
+SaveAs=Save As...
+
+Archive=Archive project
+
+Exit=Exit
+
+Rename_Project=Rename...
+
+Rename_Project_Label=New project name:
+
+Make_Summary=Make project summary
+
+Analysis=Analysis
+
+Preference=Preferences
+
+Help_Topics=Help topics
+
+About=About Baldr
+
+Rename_Tab=Rename tab...
+
+Rename_Tab_Label=New tab name:
+
+Close_Tab=Close tab
+
+Close_All=Close all but this one
+
+Duplicate_Analysis=Duplicate this analysis
+
+Save_Mods=Do you want to save modifications \n before closing this tab ?
+
+Files_Archived= files newly archived.
+
+#Tab
+Documents=Documents
+Of=of 
+Tree=File Tree\:
+
+Project_Name_Label=Project :
+
+Default_Project_Name=Untitled
+
+Export_To=Export to...
+
+Analysis_Progression=Analysis progression\:
+
+Classes=Classes\: 
+
+Results_=Results \:
+
+Result = Result
+
+File1 = File #1
+File2 = File #2
+
+Add_Files=Add files
+
+Delete_Selected_File=Delete the selected file
+
+Delete=Delete
+
+Start_Analysis=Start analysis
+
+Stop_Analysis=Stop analysis
+
+Copy=Copy
+
+Paste=Paste
+
+Cut=Cut
+
+Select_All=Select all
+
+Notes=Notes\:
+
+Local=local
+
+Graphics=Graphics pane\:
+
+Global=global
+
+Number_Decimals=Number of decimals in results:
+
+Sort_By=Sort by:
+
+Values_Histogram=Values histogram
+
+Analysis_Canceled=The analysis was canceled
+
+2DView=2D View
+
+3DView=3D View
+
+Hide_Labels=Hide labels
+
+Show_Labels=Show labels
+
+Ready=Ready...
+
+Status=Status\: 
+
+# Table model
+Files=Files
+About_Title= <html><u>Baldr, Scandinavian god of innocence</u></html>
+
+About_Text=<b>Baldr</b> version 0.42 (Beta)<br> <br> Plagiarism prevention software<br> <br><br> <u>Lead developers</u><br> Beno\u00eet Larroque <br> C\u00e9dric Tessier <br> Hubert Wassner <br> <br> <u>Developers in charge of GUI</u> <br> Corentin Ch\u00e9ron <br> Laurent Sigoigne <br><br> <u>Thanks</u> <br>To Michel Futtersack who authorized us to start this project <br><br> To Hubert for his ideas, advice and support. <br><br> To famfamfam.com's icons.<br> <br> <u>Maintenance class at Coll\u00e8ge de Bois-de-Boulogne</u> <br>Yaya Kader Bakayoko<br>Maxime Bernard<br>Vincent Bissonnette<br>Arnaud Brouillet-Gagnon<br>David Constantineau<br>Dominic Craight<br>William C\u00f4t\u00e9-Cyr<br>Alexandre Dor\u00e9<br>Justin Gagnon-Lavoie<br>Timoth\u00e9e H\u00e9bert<br>Pascal Laprade<br>Louis Luu Lim<br>Carl Montplaisir<br>Adrian Necula<br>Matthieu Pauz\u00e9<br>Alexandre Sasseville<br>Nicolas Signori<br>Estuardo Ureta<br>Nicholas V\u00e9zina<br>Andres Augusto Zamora<br>
+
+#conv 3D
+3D_Calc=3D coordinate calculation
+
+
+Finished_Analysing=Finished analysing
+Mode=Mode\:
+
+Simple_Mode=Simple mode
+
+Expert_Mode=Expert mode
+
+Fav_Editor_Caption=Favourite text editor (if set, $1 will be replaced by filename)
+
+Fav_Comparator_Caption=Favourite file comparator (if set, $1 and $2 will be replaced by filenames)
+
+Browse=Browse ...
+
+Language=Language (must restart to see changes)\:
+
+Preview_files=Preview .baldr project files in file chooser
+
+Panel_Title=Define the colors of the analysis results
+
+Progres_Mod=Progressive mode
+
+Fix_Color=Fix the colors :
+
+Red_Color = Red
+
+Green_Color = Green
+
+Yellow_Color = Yellow
+
+#errors
+NO_MORE_TABS=Sorry, but you can't create more tabs...
+
+NO_FILES=No files to analyse.
+
+TOO_MUCH_ANALYSIS=Sorry, but you can't do more analysis...
+
+NO_ENOUGH_FILES=You need at least 3 files.
+
+NO_HIDDEN_FILES=There is no hidden files.
+
+NO_EDITOR=Favourite text editor not defined.
+
+NO_DIFF=Favourite file comparator not defined.
+
+NOTHING_SAVE=Nothing to save !
+
+CANNOT_EXECUTE_PROGRAM=An error occured while launching an external program.
+
+ERROR=Error
+
+#filefilter
+FT_BALDR=Baldr project files
+
+FT_BALDR_ALL=All Baldr project files
+Report=Report\:
+
+Directories_c=directories,
+
+Files_c=files\:
+Size=Size\:
+
+Last_Mod=Last Modification\:
+
+Analysis_c=Analysis\:
+
+Analysis_In_Progress=Analysis in progress...
+
+Analysis_Done=Analysis done.
+
+Analysis_Ready=Ready...
+
+View_Label=View \:
+
+Table_View=Table
+List_View=List
+Summary=Summary
+Analysis_concatenation=Make analysis by appending files from sources
+Concatenation_directory=Path of directory for concatenation files
+Close_Project=Close project
+Overwrite=\ already exists.\nAre you sure you would like to overwrite it?
+INVALID_FILE=The file's format is invalid and/or doesn't exist
+Add_File_Cancel=The "add files" operation was cancelled.
+Sommaire_Intelligent=Open a summary tab when two or more analyses are open
+Description_Analyses=Select one of the following options for analysis :
+Analyse_Sans_Commentaires=Analyse after first removing the comments from source code
+Analyse_Sans_Whitespaces=Analyse after first removing the empty lines from source code
+Vue_Par_Defaut=Default view
+Add_Distinguished_Folder=Make this folder a distinguished source
+Remove_Distinguished_Folder=Allow the files in this folder to be compared to each other
+Add_Distinguished_Subfolder=Make the subfolders distinguished sources
+Remove_Distinguished_Subfolders=Remove the subfolders distinguished property
+
+
+result_increasing=          Result increasing
+alphabetical_increasing=    Alphabetical increasing
+alphabetical_decreasing=    Alphabetical decreasing
+extension_increasing=       Extension increasing
+extension_decreasing=       Extension decreasing
+result_decreasing=          Result decreasing
+average_increasing=         Average increasing
+average_decreasing=         Average decreasing
+
+exclude_files=              Exclude files
+exclude_no_files=           No files
+exclude_please_add_files=   Please add files!
+exclude_set_filter=         Please enter the filter to exclude files
+
+sources=                    Sources
+
+copy_or_move_files=         Copy or move files
+copy_selected_files=        Copy selected files
+move_selected_files=        Move selected files
+copy_multiple_files=        Copy multiple files using a filter
+move_multiple_files=        Move multiple files using a filter
+select_analysis=            Select analysis
+new_analysis...=            New analysis...
+analysis_choice=            Select the destination analysis
+new_analysis=               New analysis
+enter_new_analysis_name=    Enter the name for the new analysis
+analysis_name_taken=        Analysis name already taken
+analysis_name_empty=        Analysis name cannot be empty
+select_files=               Select files
+enter_filter=               Enter the filter used to select files
+
+filter_results=             Filter results
+enter_filter=               Enter the maximum threshold (0.0 to 1.0).\nAny file that doesn't include any results below the threshold will be excluded from the results table.
+bad_filter_title=           Invalid filter
+bad_filter_message=         The number you entered is invalid
+hide_results=               Hide file
+Histogram =                 Histogram
+show_hidden_files=          Show hidden files
+progres_color=              Progressive color
+fixed_color =               Fixed color
+baldr_Type=                 Plagiarism prevention software
+lead_Dev=                   Lead developers
+invalid_value=              Invalid value you must enter a digit from 0 to 0.9
+error=                      Error
+number_exp=                 You must enter only numbers
+Add_filter=                 Add a filter
+Delete_filter=              Delete a filter
+All_files=                  All the files
+Remove_filters=             Remove filters
+extract_pdf=                Extract the contents of text in a pdf files before the analysis
+extract_image_pdf=          Extract the contents of an image in a pdf before analysis
+Insert_filter=              Insert a new filter
+Insert_exclusion_filter=    Insert exclusion filter
+Exclude_filter=             Exclude a filter
+Remove_excluded_filter=     Remove excluded filter
+Filter_files=               Filter files...
+No_files=                   No files

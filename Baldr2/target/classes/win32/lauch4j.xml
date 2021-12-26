@@ -1,0 +1,35 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Documents and Settings\NeZetiC\Bureau\Baldr\Baldr.jar</jar>
+  <outfile>C:\Documents and Settings\NeZetiC\Bureau\Baldr\baldr.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <icon>C:\Documents and Settings\NeZetiC\Bureau\Baldr\bin\baldr.ico</icon>
+  <jre>
+    <path></path>
+    <minVersion>1.5.0</minVersion>
+    <maxVersion></maxVersion>
+    <dontUsePrivateJres>false</dontUsePrivateJres>
+    <initialHeapSize>0</initialHeapSize>
+    <maxHeapSize>0</maxHeapSize>
+  </jre>
+  <versionInfo>
+    <fileVersion>0.2.0.0</fileVersion>
+    <txtFileVersion>0.2b</txtFileVersion>
+    <fileDescription>Baldr</fileDescription>
+    <copyright>esiea-labs</copyright>
+    <productVersion>0.2.0.0</productVersion>
+    <txtProductVersion>0.2b</txtProductVersion>
+    <productName>Baldr</productName>
+    <companyName>esiea-labs</companyName>
+    <internalName>Baldr</internalName>
+    <originalFilename>Baldr.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
